@@ -1,7 +1,7 @@
 {
     "name": "ssddanbrown/bookstack",
-    "description": "BookStack documentation platform",
-    "keywords": ["BookStack", "Documentation"],
+    "description": "DocTub documentation platform",
+    "keywords": ["DocTub", "Documentation"],
     "license": "MIT",
     "type": "project",
     "require": {
