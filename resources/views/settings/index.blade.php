@@ -19,7 +19,7 @@
                 <div class="form-group">
                     <label for="setting-app-name">{{ trans('settings.app_name') }}</label>
                     <p class="small">{{ trans('settings.app_name_desc') }}</p>
-                    <input type="text" value="{{ setting('app-name', 'BookStack') }}" name="setting-app-name" id="setting-app-name">
+                    <input type="text" value="{{ setting('app-name', 'DocTub') }}" name="setting-app-name" id="setting-app-name">
                 </div>
                 <div class="form-group">
                     <label>{{ trans('settings.app_name_header') }}</label>
