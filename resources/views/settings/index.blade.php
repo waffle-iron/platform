@@ -118,7 +118,7 @@
 
         <div class="form-group">
             <span class="float right muted">
-                BookStack @if(strpos($version, 'v') !== 0) version @endif {{ $version }}
+                DocTub @if(strpos($version, 'v') !== 0) version @endif {{ $version }}
             </span>
             <button type="submit" class="button pos">{{ trans('settings.settings_save') }}</button>
         </div>
