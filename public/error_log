@@ -1,0 +1,12 @@
+[24-Apr-2017 15:43:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 971
+[24-Apr-2017 15:44:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 325
+[24-Apr-2017 15:45:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 375
+[24-Apr-2017 22:07:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 325
+[24-Apr-2017 22:08:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 327
+[24-Apr-2017 22:13:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameReflower/Text.php on line 400
+[24-Apr-2017 22:22:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/Page.php on line 194
+[24-Apr-2017 22:22:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 325
+[24-Apr-2017 22:30:34 UTC] PHP Fatal error:  Call to a member function getUrl() on null in /home/doctub/public_html/app/Http/Controllers/PageController.php on line 281
+[25-Apr-2017 01:33:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 325
+[25-Apr-2017 01:33:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/Block.php on line 56
+[26-Apr-2017 00:17:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/Block.php on line 56
