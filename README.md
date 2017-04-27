@@ -1,5 +1,5 @@
-# Main Source Code of DocTub
+# Source Repo of DocTub
 
-<p align="center"><a href="https://doctub.com" target="_blank"><img src="http://doctub-cdn.netlify.com/assets/logo.svg"></a></p>
+<p align="center"><a href="https://doctub.com" target="_blank"><img src="http://doctub-cdn.netlify.com/assets/logo.svg" style="height:100px"></a></p>
 
 <p align="center"><a href="https://travis-ci.org/doctub/platform"><img src="https://travis-ci.org/doctub/platform.svg" alt="Build Status"></a></p>
