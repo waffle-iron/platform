@@ -83,9 +83,9 @@ return [
         'mysql_testing' => [
             'driver'    => 'mysql',
             'host'      => '127.0.0.1',
-            'database'  => 'bookstack-test',
-            'username'  => env('MYSQL_USER', 'bookstack-test'),
-            'password'  => env('MYSQL_PASSWORD', 'bookstack-test'),
+            'database'  => 'doctub_test',
+            'username'  => env('MYSQL_USER', 'doctub_test'),
+            'password'  => env('MYSQL_PASSWORD', 'doctub_test'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
