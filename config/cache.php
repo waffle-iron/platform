@@ -82,6 +82,6 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', 'dt_'),
+    'prefix' => env('CACHE_PREFIX', 'doctub_'),
 
 ];
