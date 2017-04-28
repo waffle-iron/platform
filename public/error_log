@@ -10,3 +10,10 @@
 [25-Apr-2017 01:33:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame.php on line 325
 [25-Apr-2017 01:33:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/Block.php on line 56
 [26-Apr-2017 00:17:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/Block.php on line 56
+[27-Apr-2017 10:51:15 UTC] PHP Fatal error:  Undefined constant 'n' in /home/doctub/public_html/storage/framework/views/effc19113ce2337e35ce90cd75e0b99db19855e7.php on line 61
+[27-Apr-2017 10:51:29 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/doctub/public_html/storage/framework/views/effc19113ce2337e35ce90cd75e0b99db19855e7.php on line 61
+[27-Apr-2017 11:39:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/Page.php on line 351
+[27-Apr-2017 11:39:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/Frame/FrameList.php on line 33
+[28-Apr-2017 11:46:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php on line 186
+[28-Apr-2017 11:46:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php on line 186
+[28-Apr-2017 11:47:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/doctub/public_html/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php on line 529

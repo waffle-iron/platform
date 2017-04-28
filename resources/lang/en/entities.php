@@ -12,6 +12,7 @@ return [
     'recently_update' => 'Recently Updated',
     'recently_viewed' => 'Recently Viewed',
     'recent_activity' => 'Recent Activity',
+    'trending' => 'Trending!',
     'create_now' => 'Create one now',
     'revisions' => 'Revisions',
     'meta_revision' => 'Revision #:revisionCount',
