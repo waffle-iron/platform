@@ -222,7 +222,7 @@ class ImageService extends UploadService
     public function saveUserGravatar(User $user, $size = 500)
     {
         $emailHash = md5(strtolower(trim($user->email)));
-        $url = 'https://www.gravatar.com/avatar/' . $emailHash . '?s=' . $size . '&d=identicon';
+        $url = 'https://secure.gravatar.com/avatar/' . $emailHash . '?s=' . $size . '&d=identicon';
         $imageName = str_replace(' ', '-', $user->name . '-gravatar.png');
         $image = $this->saveNewFromUrl($url, 'user', $imageName);
         $image->created_by = $user->id;

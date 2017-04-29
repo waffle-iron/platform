@@ -12,6 +12,7 @@
     <link rel="preload" href="https://doctub-cdn.netlify.com/assets/jquery.min.js" as="script">
     <link rel="preload" href="https://doctub-cdn.netlify.com/assets/jquery-ui.min.js" as="script">
     <link rel="preload" href="https://doctub-cdn.netlify.com/assets/common.js" as="script">
+    <link rel="preload" href="https://doctub-cdn.netlify.com/assets/tinymce.min.js" as="script">
     <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
     <link rel="stylesheet" href="{{ baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css') }}">
