@@ -1,6 +1,6 @@
 <style id="custom-styles" data-color="{{ setting('app-color') }}" data-color-light="{{ setting('app-color-light') }}">
     header, #back-to-top, .primary-background {
-        background-color: {{ setting('app-color') }} !important;
+        background-color: #24292e !important;
     }
     .faded-small, .primary-background-light {
         background-color: {{ setting('app-color-light') }};
