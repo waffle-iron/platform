@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
     <link rel="stylesheet" href="{{ baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css') }}">
-    <script src="https://doctub-cdn.netlify.com/assets/jquery.min.js?version=2.1.4"></script>
-    <script src="https://doctub-cdn.netlify.com/assets/jquery-ui.min.js?version=1.11.4"></script>
+    <script src="https://doctub-cdn.netlify.com/assets/jquery.min.js"></script>
+    <script src="https://doctub-cdn.netlify.com/assets/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
