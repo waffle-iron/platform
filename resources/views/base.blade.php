@@ -101,5 +101,14 @@
 @yield('bottom')
 <script src="https://doctub-cdn.netlify.com/assets/common.js"></script>
 @yield('scripts')
+     <script src="https://doctub-cdn.netlify.com/assets/highlight.min.js"></script>
+     <script>
+      $(function() {
+        var aCodes = document.getElementsByTagName('pre');
+        for (var i=0; i < aCodes.length; i++) {
+            hljs.highlightBlock(aCodes[i]);
+        }
+      });
+     </script>
 </body>
 </html>
