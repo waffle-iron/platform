@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('head')
-    <script src="http://doctub-cdn.netlify.com/assets/tinymce.min.js"></script>
+    <script src="https://doctub-cdn.netlify.com/assets/tinymce.min.js"></script>
 @stop
 
 @section('body-class', 'flexbox')
