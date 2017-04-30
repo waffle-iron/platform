@@ -1,5 +1,5 @@
 
-<script src="http://doctub-cdn.netlify.com/assets/highlight.min.js"></script>
+<script src="https://doctub-cdn.netlify.com/assets/highlight.min.js"></script>
 <script>
     $(function() {
         var aCodes = document.getElementsByTagName('pre');
