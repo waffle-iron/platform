@@ -1,5 +1,2 @@
 /vendor
 .env
-/public/uploads/images
-/storage/images
-/storage/framework
