@@ -3,7 +3,6 @@
 <head>
     <title>{{ isset($pageTitle) ? $pageTitle . ' | ' : '' }}{{ setting('app-name') }}</title>
 
-    <!-- Meta -->
     <meta name="viewport" content="width=device-width">
     <meta name="token" content="{{ csrf_token() }}">
     <meta name="base-url" content="{{ baseUrl('/') }}">
@@ -16,8 +15,6 @@
     <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
     <link rel="stylesheet" href="{{ baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css') }}">
-
-    <!-- Scripts -->
     <script src="https://doctub-cdn.netlify.com/assets/jquery.min.js?version=2.1.4"></script>
     <script src="https://doctub-cdn.netlify.com/assets/jquery-ui.min.js?version=1.11.4"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
@@ -89,6 +86,18 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
+    <div class="faded-footer toolbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 faded">
+                    <div class="action-buttons text-left">
+                        <a href="https://doctub.com" class="text-primary text-button">© 2017 DocTub</a>
+                        <a href="https://madewithlove.org.in" target="_blank">Made with&nbsp;&nbsp;<img src="https://doctub-cdn.netlify.com/assets/heart.svg" style="height:11px;margin-bottom:-1px">&nbsp;&nbsp;in India</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
 @yield('bottom')
 <script src="https://doctub-cdn.netlify.com/assets/common.js"></script>
 @yield('scripts')
