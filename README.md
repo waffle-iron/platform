@@ -40,3 +40,5 @@ These are the great projects used to help build BookStack:
     * [Snappy (WKHTML2PDF)](https://github.com/barryvdh/laravel-snappy)
     * [Laravel IDE helper](https://github.com/barryvdh/laravel-ide-helper)
 * [WKHTMLtoPDF](http://wkhtmltopdf.org/index.html)
+
+Additionally, Thank you [BrowserStack](https://www.browserstack.com/) for supporting us and making cross-browser testing easy.
