@@ -2,4 +2,4 @@
 
 <p align="center"><a href="https://travis-ci.org/doctub/platform"><img src="https://travis-ci.org/doctub/platform.svg" alt="Build Status"></a>
 
-[![License](https://poser.pugx.org/doctub/platform/license)](https://packagist.org/packages/doctub/platform)
+[![License](https://poser.pugx.org/doctub/platform/license)](https://packagist.org/packages/doctub/platform)</p>
