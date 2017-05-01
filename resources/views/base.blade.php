@@ -100,7 +100,7 @@
 @yield('bottom')
 <script src="https://doctub-cdn.netlify.com/assets/common.js"></script>
 @yield('scripts')
-     <script src="https://doctub-cdn.netlify.com/assets/highlight.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
      <script>
       $(function() {
         var aCodes = document.getElementsByTagName('pre');
