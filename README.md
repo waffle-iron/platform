@@ -1,5 +1,6 @@
 # Source Code of DocTub Platform
-<center>
+
+<p align="center"><img src="https://doctub-cdn.netlify.com/logo/logo-100.png"></p>
 
 [![Build Status](https://travis-ci.org/doctub/platform.svg)](https://travis-ci.org/doctub/platform)
 
@@ -7,4 +8,3 @@
 
 [![Issues](https://img.shields.io/github/issues/doctub/platform.svg)](https://github.com/doctub/platform/issues)
 
-</center>
