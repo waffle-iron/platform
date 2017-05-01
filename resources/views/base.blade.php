@@ -8,15 +8,14 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
     <link rel="dns-prefetch" href="https://doctub-cdn.netlify.com">
-    <link rel="preload" href="https://doctub-cdn.netlify.com/assets/jquery.min.js" as="script">
-    <link rel="preload" href="https://doctub-cdn.netlify.com/assets/jquery-ui.min.js" as="script">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" as="script">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" as="script">
     <link rel="preload" href="https://doctub-cdn.netlify.com/assets/common.js" as="script">
-    <link rel="preload" href="https://doctub-cdn.netlify.com/assets/tinymce.min.js" as="script">
     <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
-    <link rel="stylesheet" href="{{ baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css') }}">
-    <script src="https://doctub-cdn.netlify.com/assets/jquery.min.js"></script>
-    <script src="https://doctub-cdn.netlify.com/assets/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')

@@ -12,10 +12,10 @@
     <!-- Styles and Fonts -->
     <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
-    <link rel="stylesheet" href="{{ baseUrl("/libs/material-design-iconic-font/css/material-design-iconic-font.min.css") }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
     <!-- Scripts -->
-    <script src="https://doctub-cdn.netlify.com/assets/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
