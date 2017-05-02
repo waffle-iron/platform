@@ -10,12 +10,12 @@
     <meta charset="utf-8">
 
     <!-- Styles and Fonts -->
-    <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
-    <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
-    <link rel="stylesheet" href="{{ baseUrl("/libs/material-design-iconic-font/css/material-design-iconic-font.min.css") }}">
+    <link rel="stylesheet" href="{{ baseUrl('/css') }}/styles.css">
+    <link rel="stylesheet" media="print" href="{{ baseUrl('/css') }}/print-styles.css">
+    <link rel="stylesheet" href="{{ baseUrl('/libs') }}/material-design-iconic-font/css/material-design-iconic-font.min.css">
 
     <!-- Scripts -->
-    <script src="https://doctub-cdn.netlify.com/assets/jquery.min.js"></script>
+    <script src="{{ baseUrl('/libs/jquery') }}/jquery.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
@@ -34,7 +34,7 @@
 
                 <a href="{{ baseUrl('/') }}" class="logo">
                     @if(setting('app-logo', '') !== 'none')
-                        <img class="logo-image" src="https://doctub-cdn.netlify.com/assets/logo.svg" alt="Logo">
+                        <img class="logo-image" src="{{ baseUrl('/') }}/logo.svg" alt="Logo">
                     @endif
                     @if (setting('app-name-header'))
                         <span class="logo-text">{{ setting('app-name') }}</span>
@@ -58,7 +58,20 @@
 <section class="container">
     @yield('content')
 </section>
-
 <script src="https://doctub-cdn.netlify.com/assets/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+     <script>
+      $(function() {
+        var aCodes = document.getElementsByTagName('pre');
+        for (var i=0; i < aCodes.length; i++) {
+            hljs.highlightBlock(aCodes[i]);
+        }
+      });
+     </script>
+     <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+        }
+     </script>
 </body>
 </html>

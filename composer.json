@@ -1,8 +1,8 @@
 {
-    "name": "ssddanbrown/bookstack",
+    "name": "doctub/platform",
     "description": "DocTub documentation platform",
     "keywords": ["DocTub", "Documentation"],
-    "license": "MIT",
+    "license": "Apcahe 2",
     "type": "project",
     "require": {
         "php": ">=5.6.4",

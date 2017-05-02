@@ -5,13 +5,13 @@
  */
 return [
 
-    'app-name'        => 'BookStack',
+    'app-name'        => 'DocTub',
     'app-logo' => '',
     'app-name-header' => true,
     'app-editor'      => 'wysiwyg',
-    'app-color'       => '#0288D1',
+    'app-color'       => '#24292e',
     'app-color-light' => 'rgba(21, 101, 192, 0.15)',
     'app-custom-head' => false,
-    'registration-enabled' => false,
+    'registration-enabled' => true,
 
 ];

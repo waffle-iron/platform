@@ -1,4 +1,3 @@
-
 <div class="entity-list @if(isset($style)){{ $style }}@endif" ng-non-bindable>
     @if(count($entities) > 0)
         @foreach($entities as $index => $entity)
