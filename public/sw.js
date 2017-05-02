@@ -8,6 +8,13 @@ self.addEventListener('install', e => {
         '/translations',
         '/css/styles.css',
         '/css/print-styles.css',
+        '/libs/material-design-iconic-font/css/material-design-iconic-font.min.css',
+        '/js/common.js',
+        '/libs/highlightjs/highlight.min.js',
+        '/js/common.js',
+        '/js/common.js',
+        '/js/common.js',
+        '/js/common.js',
         '/logo.svg',
         '/heart.svg',
       ]).then(() => self.skipWaiting());
