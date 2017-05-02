@@ -35,7 +35,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="{{ baseUrl('/') }}/logo.svg" alt="Logo">
+                            <img class="logo-image" src="{{ baseUrl('/images') }}/logo.svg" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text">{{ setting('app-name') }}</span>
@@ -88,7 +88,7 @@
                 <div class="col-sm-6 faded">
                     <div class="action-buttons text-left">
                         <a href="https://doctub.com" class="text-primary text-button">© 2017 DocTub</a>
-                        <a href="https://madewithlove.org.in" target="_blank">Made with&nbsp;&nbsp;<img src="{{ baseUrl('/') }}/heart.svg" style="height:11px;margin-bottom:-1px">&nbsp;&nbsp;in India</a>
+                        <a href="https://madewithlove.org.in" target="_blank">Made with&nbsp;&nbsp;<img src="{{ baseUrl('/images') }}/heart.svg" style="height:11px;margin-bottom:-1px">&nbsp;&nbsp;in India</a>
                     </div>
                 </div>
             </div>
