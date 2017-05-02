@@ -1,8 +1,7 @@
 {  
   "short_name": "DocTub Lite",  
   "name": "DocTub Lite",  
-  "start_url": "/?utm_source=web_app_manifest", 
-  "description": "DocTub Documentation Platfor.",
+  "start_url": "/", 
   "icons": [  
     {  
       "src": "/icon-192x192.png",  
