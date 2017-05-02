@@ -7,10 +7,7 @@
     <meta name="token" content="{{ csrf_token() }}">
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
-    <link rel="dns-prefetch" href="https://doctub-cdn.netlify.com">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" as="script">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" as="script">
-    <link rel="preload" href="https://doctub-cdn.netlify.com/assets/common.js" as="script">
+ 
     <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
