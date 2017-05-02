@@ -14,7 +14,12 @@ self.addEventListener('install', e => {
         '/libs/tinymce/tinymce.min.js',
         '/sw.js',
         '/logo.svg',
-        '/heart.svg'
+        '/heart.svg',
+        '/images/icon-192x192.png',
+        '/images/icon-256x256.png',
+        '/images/icon-384x384.png',
+        '/images/icon-512x512.png'
+        
       ]).then(() => self.skipWaiting());
     })
   );
