@@ -105,6 +105,12 @@
         }
       });
      </script>
-
+     <script>
+         if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/serviceworker.js', {
+            scope: '/'
+           });
+         }
+     </script>
 </body>
 </html>
