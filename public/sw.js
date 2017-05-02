@@ -11,12 +11,10 @@ self.addEventListener('install', e => {
         '/libs/material-design-iconic-font/css/material-design-iconic-font.min.css',
         '/js/common.js',
         '/libs/highlightjs/highlight.min.js',
-        '/js/common.js',
-        '/js/common.js',
-        '/js/common.js',
-        '/js/common.js',
+        '/libs/tinymce/tinymce.min.js',
+        '/sw.js',
         '/logo.svg',
-        '/heart.svg',
+        '/heart.svg'
       ]).then(() => self.skipWaiting());
     })
   );
