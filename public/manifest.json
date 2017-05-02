@@ -1,7 +1,4 @@
 {  
-  "short_name": "DocTub Lite",  
-  "name": "DocTub Lite",  
-  "start_url": "/?utm_source=web_app_manifest",  
   "icons": [  
     {  
       "src": "/icon-192x192.png",  
@@ -22,8 +19,15 @@
       "src": "/images/icon-512x512.png",  
       "sizes": "512x512",  
       "type": "image/png"  
+    },
+    "related_applications": [{
+    "platform": "web"
     }
   ],  
+  "short_name": "DocTub Lite",  
+  "name": "DocTub Lite",  
+  "start_url": "/?utm_source=web_app_manifest", 
+  "description": "DocTub Documentation Platform.",
   "background_color": "#24292e",
   "theme_color": "#24292e", 
   "display": "standalone",  
