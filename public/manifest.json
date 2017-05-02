@@ -1,7 +1,7 @@
 {  
   "short_name": "DocTub Lite",  
   "name": "DocTub Lite",  
-  "start_url": "/", 
+  "start_url": "/?utm_source=web_app_manifest",  
   "icons": [  
     {  
       "src": "/icon-192x192.png",  
@@ -25,7 +25,7 @@
     }
   ],  
   "background_color": "#24292e",
-  "theme_color": "#24292e", 
+  "theme_color": "#512DA8", 
   "display": "standalone",  
   "orientation": "portrait"  
 }
