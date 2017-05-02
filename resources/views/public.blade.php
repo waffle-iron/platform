@@ -3,18 +3,15 @@
 <head>
     <title>{{ setting('app-name') }}</title>
 
-    <!-- Meta -->
     <meta name="viewport" content="width=device-width">
     <meta name="token" content="{{ csrf_token() }}">
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
-
-    <!-- Styles and Fonts -->
+    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ baseUrl('/css') }}/styles.css">
     <link rel="stylesheet" media="print" href="{{ baseUrl('/css') }}/print-styles.css">
     <link rel="stylesheet" href="{{ baseUrl('/libs') }}/material-design-iconic-font/css/material-design-iconic-font.min.css">
 
-    <!-- Scripts -->
     <script src="{{ baseUrl('/libs/jquery') }}/jquery.min.js"></script>
     @include('partials/custom-styles')
 
