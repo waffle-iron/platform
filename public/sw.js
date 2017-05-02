@@ -9,7 +9,7 @@ self.addEventListener('install', e => {
         '/css/styles.css',
         '/css/print-styles.css',
         '/logo.svg',
-        '/translations',
+        '/heart.svg',
       ]).then(() => self.skipWaiting());
     })
   );

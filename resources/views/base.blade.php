@@ -87,7 +87,7 @@
                 <div class="col-sm-6 faded">
                     <div class="action-buttons text-left">
                         <a href="https://doctub.com" class="text-primary text-button">© 2017 DocTub</a>
-                        <a href="https://madewithlove.org.in" target="_blank">Made with&nbsp;&nbsp;<img src="https://doctub-cdn.netlify.com/assets/heart.svg" style="height:11px;margin-bottom:-1px">&nbsp;&nbsp;in India</a>
+                        <a href="https://madewithlove.org.in" target="_blank">Made with&nbsp;&nbsp;<img src="{{ baseUrl('/') }}/heart.svg" style="height:11px;margin-bottom:-1px">&nbsp;&nbsp;in India</a>
                     </div>
                 </div>
             </div>
