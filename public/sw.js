@@ -1,20 +1,15 @@
-// we'll version our cache (and learn how to delete caches in
-// some other post)
 const cacheName = 'v1::static';
 
 self.addEventListener('install', e => {
-  // once the SW is installed, go ahead and fetch the resources
-  // to make this work offline
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         '/',
-        /*
-          DEAR READER,
-          ADD A LIST OF YOUR ASSETS THAT
-          YOU WANT TO WORK WHEN OFFLINE
-          TO THIS ARRAY OF URLS
-        */
+        '/translations',
+        '/css/styles.css',
+        '/css/print-styles.css',
+        '/logo.svg',
+        '/translations',
       ]).then(() => self.skipWaiting());
     })
   );

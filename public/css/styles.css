@@ -2542,7 +2542,7 @@ input:checked+.toggle-switch:after {
 }
 
 .title-input.page-title input[type=text] {
-    max-width: 8px;
+    max-width: 855px;
     margin: 0 auto;
     border: none
 }

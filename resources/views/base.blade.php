@@ -7,11 +7,11 @@
     <meta name="token" content="{{ csrf_token() }}">
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://doctub-cdn.netlify.com/assets/styles.css">
-    <link rel="stylesheet" media="print" href="https://doctub-cdn.netlify.com/assets/print-styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="{{ baseUrl('/css') }}/styles.css">
+    <link rel="stylesheet" media="print" href="{{ baseUrl('/css') }}/print-styles.css">
+    <link rel="stylesheet" href="{{ baseUrl('/libs') }}/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <script src="{{ baseUrl('/libs/jquery') }}/jquery.min.js"></script>
+    <script src="{{ baseUrl('/libs/jquery') }}/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -34,7 +34,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="https://doctub-cdn.netlify.com/assets/logo.svg" alt="Logo">
+                            <img class="logo-image" src="{{ baseUrl('/') }}/logo.svg" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text">{{ setting('app-name') }}</span>
@@ -94,9 +94,9 @@
         </div>
      </div>
 @yield('bottom')
-<script src="https://doctub-cdn.netlify.com/assets/common.js"></script>
+<script src="{{ baseUrl('/js') }}/common.js"></script>
 @yield('scripts')
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+     <script src="{{ baseUrl('/libs/highlightjs') }}/highlight.min.js"></script>
      <script>
       $(function() {
         var aCodes = document.getElementsByTagName('pre');
