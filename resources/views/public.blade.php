@@ -10,9 +10,9 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ baseUrl('/css') }}/styles.css">
     <link rel="stylesheet" media="print" href="{{ baseUrl('/css') }}/print-styles.css">
-    <link rel="stylesheet" href="{{ baseUrl('/libs') }}/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
-    <script src="{{ baseUrl('/libs/jquery') }}/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
@@ -55,7 +55,7 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://doctub-cdn.netlify.com/assets/common.js"></script>
+<script src="{{ baseUrl('/js') }}/common.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
      <script>
       $(function() {
