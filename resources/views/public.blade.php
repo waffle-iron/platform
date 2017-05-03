@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="{{ baseUrl('/css') }}/styles.css">
     <link rel="stylesheet" media="print" href="{{ baseUrl('/css') }}/print-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <script src="/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     @include('partials/custom-styles')
 
