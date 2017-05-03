@@ -3439,7 +3439,7 @@ header .links a {
     display: inline-block;
     color: #fff;
     margin: 24px 0 0 0;
-    padding: 4px 7px;
+    padding: 4px 10px;
     background: #7C8F99 bottom left repeat-x;
     font-weight: bold;
     font-size: 14px;
@@ -3631,7 +3631,7 @@ form.search-box button:hover {
 .faded-footer {
     color: #000;
     font-size: .9em;
-    background-color: #EEEE;
+    background-color: #EEE;
 }
 
 .action-buttons .text-button,
