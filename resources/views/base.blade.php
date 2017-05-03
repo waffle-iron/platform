@@ -106,10 +106,5 @@
         }
       });
      </script>
-     <script>
-        if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service.js');
-        }
-     </script>
 </body>
 </html>
