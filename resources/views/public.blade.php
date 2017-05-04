@@ -8,6 +8,7 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://ci30z1uc.cloudimg.io">
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ baseUrl('/css') }}/styles.css">
     <link rel="stylesheet" media="print" href="{{ baseUrl('/css') }}/print-styles.css">
