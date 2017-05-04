@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/doctub/platform.png?label=ready&title=Ready)](https://waffle.io/doctub/platform)
 # Source Code of DocTub Platform
 
 <p align="center"><img src="https://doctub-cdn.netlify.com/logo/logo-100.png"></p>
