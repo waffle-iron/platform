@@ -11,7 +11,7 @@ return [
 
     'driver' => env('SESSION_DRIVER', 'database'),
 
-    'lifetime' => 1,
+    'lifetime' => 2000000,
 
     'expire_on_close' => false,
 
