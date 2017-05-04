@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => 'mysql',
 
     /*
     |--------------------------------------------------------------------------
@@ -70,9 +70,9 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
+            'host'      => 'localhost',
+            'database'  => 'doctub',
+            'username'  => 'tubinc',
             'password'  => env('DB_PASSWORD', ''),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
@@ -84,7 +84,7 @@ return [
             'driver'    => 'mysql',
             'host'      => '127.0.0.1',
             'database'  => 'doctub_test',
-            'username'  => env('MYSQL_USER', 'doctub_test'),
+            'username'  => 'doctub_test',
             'password'  => env('MYSQL_PASSWORD', 'doctub_test'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
@@ -94,9 +94,9 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
+            'host'     => 'localhost',
+            'database' => 'forge',
+            'username' => 'forge',
             'password' => env('DB_PASSWORD', ''),
             'charset'  => 'utf8',
             'prefix'   => '',
@@ -105,9 +105,9 @@ return [
 
         'sqlsrv' => [
             'driver'   => 'sqlsrv',
-            'host'     => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
+            'host'     => 'localhost',
+            'database' => 'forge',
+            'username' => 'forge',
             'password' => env('DB_PASSWORD', ''),
             'charset'  => 'utf8',
             'prefix'   => '',
