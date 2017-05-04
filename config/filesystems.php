@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('STORAGE_TYPE', 'local'),
+    'default' => 'local',
 
     /*
     |--------------------------------------------------------------------------
@@ -75,10 +75,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key'    => env('STORAGE_S3_KEY', 'your-key'),
-            'secret' => env('STORAGE_S3_SECRET', 'your-secret'),
-            'region' => env('STORAGE_S3_REGION', 'your-region'),
-            'bucket' => env('STORAGE_S3_BUCKET', 'your-bucket'),
+            'key'    => 'your-key',
+            'secret' => 'your-secret',
+            'region' => 'your-region',
+            'bucket' => 'your-bucket'),
         ],
 
         'rackspace' => [
