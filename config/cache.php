@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'default' => 'database',
+    'default' => env('CACHE_DRIVER', 'database'),
 
     /*
     |--------------------------------------------------------------------------
@@ -82,6 +82,6 @@ return [
     |
     */
 
-    'prefix' => 'doctub_',
+    'prefix' => env('CACHE_PREFIX', 'doctub_'),
 
 ];
