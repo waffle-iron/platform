@@ -30,7 +30,7 @@
 
                 <a href="{{ baseUrl('/') }}" class="logo">
                     @if(setting('app-logo', '') !== 'none')
-                        <img class="logo-image" src="{{ baseUrl('/images') }}/logo.svg" alt="Logo">
+                        <img class="logo-image" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f4d6.svg" alt="Logo">
                     @endif
                     @if (setting('app-name-header'))
                         <span class="logo-text">{{ setting('app-name') }}</span>
